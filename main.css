@@ -1,0 +1,39 @@
+/* Remoção dos dimensionamentos aplicados por padrão pelo navegador */
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Estilização do cabeçalho da página */
+
+header li {
+    display: inline;
+}
+
+.cabeçalho {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+/* Estilização do conteúdo da página */
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
+}
