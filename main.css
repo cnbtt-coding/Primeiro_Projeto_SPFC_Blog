@@ -156,6 +156,12 @@ header {
 #footer .homebutton {
     position: fixed;
     bottom: 20px;
-    right: 30px;
+    right: 40px;
+}
+
+#footer .homebutton img {
+    width: 45px;
+    background-color: black;
+    border-radius: 20px;
 }
 
