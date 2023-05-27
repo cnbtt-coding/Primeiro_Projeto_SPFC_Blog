@@ -39,6 +39,10 @@ header li a {
     justify-content: space-between;
 }
 
+.cabeçalho img {
+    width: 100px;
+}
+
 /* Estilização das seções e artigos de forma conjunta */
 
 .container {
@@ -60,6 +64,10 @@ header li a {
 
 .articles article {
     width: 30%;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 4px;
 }
 
 .articles article h3 {
@@ -99,6 +107,10 @@ section h2 {
     font-size: 32px;
 }
 
+header {
+    margin-left: 125px;
+}
+
 /* Estilização da seção de transferências */
 
 #Transfers {
@@ -122,4 +134,7 @@ footer {
     margin-top: 0px;
 }
 
+.footer img {
+    width: 100px;
+}
 
