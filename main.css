@@ -111,6 +111,10 @@ header {
     margin-left: 125px;
 }
 
+.articles article .content {
+    padding: 4px;
+}
+
 /* Estilização da seção de transferências */
 
 #Transfers {
