@@ -63,6 +63,7 @@ header li a {
 .articles article img {
     /*height: 180px;*/
     width: 100%;
+    border-radius: 20px;
 }
 
 .articles article {
@@ -72,6 +73,7 @@ header li a {
     border-color: black;
     margin-bottom: 4px;
     background-color: black;
+    border-radius: 20px;
 }
 
 .articles article h3 {
@@ -138,7 +140,7 @@ header {
 
 /* Footer/Rodapé */
 
-footer {
+#footer {
     text-align: center;
     color: white;
     width: auto;
@@ -147,7 +149,13 @@ footer {
     margin-top: 0px;
 }
 
-.footer img {
+#footer img {
     width: 100px;
+}
+
+#footer .homebutton {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
 }
 
