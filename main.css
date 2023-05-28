@@ -8,6 +8,12 @@
 
 /* Estilização do cabeçalho da página */
 
+.first {
+    margin-left: 150px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
 h1 a {
     text-decoration: none;
     color: red;
@@ -27,11 +33,15 @@ header li {
 }
 
 header li a {
-    color: black;
+    color: white;
     text-decoration: none;
-    background-color: bisque;
     padding: 8px 15px;
-    border-radius: 20px;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+.cabeçalho li a:hover {
+    border-bottom: 2px solid white;
 }
 
 .cabeçalho {
@@ -44,6 +54,12 @@ header li a {
 
 .cabeçalho img {
     width: 100px;
+}
+
+.adidas {
+    position: relative;
+    top: -10px;
+    right: 560px;
 }
 
 /* Estilização das seções e artigos de forma conjunta */
@@ -77,7 +93,8 @@ header li a {
     border-color: black;
     margin-bottom: 4px;
     background-color: black;
-    border-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
 }
 
 .articles article h3 {
@@ -122,12 +139,13 @@ section h2 {
     font-size: 32px;
 }
 
-header {
-    margin-left: 125px;
-}
-
 .articles article .content {
     padding: 4px;
+}
+
+.time header {
+    position: relative;
+    left: 32%;
 }
 
 /* Estilização da seção de transferências */
