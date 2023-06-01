@@ -108,8 +108,8 @@ section h2 {
 }
 
 .articles article a {
-    background-color: red;
-    color: white;
+    background-color: rgb(245, 215, 178);
+    color: black;
     padding: 5px;
     display: inline-block;
     margin-top: 5px;
@@ -199,3 +199,40 @@ section h2 {
     border-radius: 20px;
 }
 
+/*Estilização dos botões*/
+
+#Dm .articles article a {
+    background-color: rgb(164, 241, 241);
+    color: black;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    border-radius: 20px;
+}
+
+#Economy .articles article a {
+    background-color: rgb(204, 74, 74);
+    color: black;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    border-radius: 20px;
+}
+
+#Social .articles article a {
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    border-radius: 20px;
+}
